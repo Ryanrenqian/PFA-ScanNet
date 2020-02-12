@@ -237,7 +237,7 @@ if __name__ == "__main__":
     def main():
         device = torch.device("cpu")
 
-        training_mode = False
+        training_mode = True
         model = PFAScanNet(training_mode=training_mode).to(device)
 
         if training_mode:

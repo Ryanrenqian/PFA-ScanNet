@@ -1,6 +1,6 @@
 import torch
 
-from losses import seg_loss
+from models.losses import seg_loss
 
 EPS = 1e-6
 
